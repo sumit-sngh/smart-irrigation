@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Irrigation IoT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-brand">Smart Irrigation IoT</div>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Welcome to Smart Irrigation IoT</h1>
+        <p>Automate your farm/garden with our intelligent irrigation system powered by IoT sensors and technology.</p>
+    </header>
+    <main>
+        <section id="sensor-section">
+            <h2>Live Sensor Data</h2>
+            <div class="sensor-data">
+                <div>Soil Moisture: <span id="soilMoisture">--</span>%</div>
+                <div>Temperature: <span id="temperature">--</span>°C</div>
+                <div>Humidity: <span id="humidity">--</span>%</div>
+                <div>Pump Status: <span id="pumpStatus">--</span></div>
+            </div>
+            <button onclick="refreshSensorData()">Refresh Data</button>
+        </section>
+        <section>
+            <h2>Key Features</h2>
+            <ul>
+                <li>Real-time soil moisture monitoring</li>
+                <li>Automatic water pump control</li>
+                <li>Cloud-based data access</li>
+                <li>Mobile-friendly dashboard</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Smart Irrigation IoT Project</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

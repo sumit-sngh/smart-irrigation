@@ -1,0 +1,16 @@
+{
+  "name": "smart-irrigation-iot",
+  "version": "1.0.0",
+  "description": "Smart Irrigation IoT Micro Project Website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "sumit-sngh",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.8",
+    "body-parser": "^1.20.2"
+  }
+}
